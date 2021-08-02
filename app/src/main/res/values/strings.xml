@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Water Illumination</string>
+    <string name="d1">Вы можете освещать воду</string>
+    <string name="d2">Нажмите кнопку осветить</string>
+    <string name="d3">Погрузите телефон в воду и ждите</string>
+    <string name="d4">ВНИМАНИЕ!\nИспользуйте только водонепроницаемые устройства с поддержкой IP68</string>
+    <string name="illuminate_action">Осветить</string>
+    <string name="next">Далее</string>
+    <string name="begin">Начать</string>
+    <string name="illimination_end_sate">Вода освещена\nНаслаждайтесь</string>
+</resources>

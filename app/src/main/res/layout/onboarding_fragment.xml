@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content" />-->
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="312dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/shadow_bottom_227"/>
+
+    <com.xaxtix.team.waterillunination.ui.viewpager.XViewPager
+        android:id="@+id/view_pager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+    <TextView
+        android:stateListAnimator="@animator/button_anim"
+        android:id="@+id/button"
+        android:layout_marginLeft="80dp"
+        android:layout_marginRight="80dp"
+        android:layout_marginBottom="60dp"
+        android:layout_gravity="bottom"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:padding="16dp"
+        android:fontFamily="sans-serif-medium"
+        android:textAllCaps="true"
+        android:gravity="center_horizontal"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

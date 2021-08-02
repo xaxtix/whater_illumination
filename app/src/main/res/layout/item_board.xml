@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="8dp"
+        android:adjustViewBounds="true" />
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_gravity="bottom"
+        android:textColor="@android:color/white"
+        tools:text="ты пидор"
+        android:textSize="24dp"
+        android:layout_marginRight="60dp"
+        android:layout_marginLeft="60dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:layout_marginBottom="150dp"
+        android:lines="3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>
